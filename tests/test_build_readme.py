@@ -81,7 +81,7 @@ class Build(unittest.TestCase):
         self.assertEqual(b.check(data), [])
         text = b.render(data, datetime.date(2026, 11, 16))
         self.assertIn('**Last update: Nov 16, 2026**', text)
-        self.assertIn('which checks 5.6k skill repositories every hour', text)
+        self.assertIn('which tracks 5.6k skill repositories; rankings refresh every hour', text)  # D-AWESOME-README-HOURLY
         self.assertIn('[o0/r0](https://hotskills.dev/skill/o0-r0/)', text)
         self.assertIn('### Legal', text)
         self.assertNotIn('Sponsored suggestion', text)

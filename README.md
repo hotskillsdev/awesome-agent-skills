@@ -1,6 +1,6 @@
 # Awesome Agent Skills: ranked by real growth on [HotSkills.dev](https://hotskills.dev/)
 
-Agent skills (`SKILL.md`) for Claude Code, Codex, Cursor and other agents, ranked by real GitHub growth. Rebuilt every day from [HotSkills.dev](https://hotskills.dev/), which checks 7.4k skill repositories every hour.
+Agent skills (`SKILL.md`) for Claude Code, Codex, Cursor and other agents, ranked by real GitHub growth. Rebuilt every day from [HotSkills.dev](https://hotskills.dev/), which tracks 7.4k skill repositories; rankings refresh every hour.
 
 **Last update: Nov 16, 2026** · [Live leaderboard](https://hotskills.dev/) · [Rising now](https://hotskills.dev/rising/) · [Hot Monday newsletter](https://hotskills.dev/newsletter/)
 

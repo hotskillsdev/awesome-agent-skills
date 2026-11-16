@@ -174,7 +174,7 @@ def render(data, today):
     date = '%s %d, %d' % (today.strftime('%b'), today.day, today.year)
     intro = ('Agent skills (`SKILL.md`) for Claude Code, Codex, Cursor and other agents, ranked by real GitHub '
              'growth. Rebuilt every day from [HotSkills.dev](%s/)%s.'
-             % (BASE, ', which checks %s skill repositories every hour' % tracked if tracked else ''))
+             % (BASE, ', which tracks %s skill repositories; rankings refresh every hour' % tracked if tracked else ''))
     out = ['# Awesome Agent Skills: ranked by real growth on [HotSkills.dev](%s/)' % BASE, '', intro, '',
            '**Last update: %s** · [Live leaderboard](%s/) · [Rising now](%s/rising/) · '
            '[Hot Monday newsletter](%s/newsletter/)' % (date, BASE, BASE, BASE), '',
